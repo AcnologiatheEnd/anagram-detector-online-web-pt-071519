@@ -13,4 +13,5 @@ class Anagram
         return each
       end
     end
+  end
 end
