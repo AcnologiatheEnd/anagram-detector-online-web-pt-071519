@@ -11,8 +11,9 @@ class Anagram
     new_array = []
     for each in array
       if each.split("").sort == word_splitter
-        return each
+        new_array << each
       end
     end
+    new_array
   end
 end
