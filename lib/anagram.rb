@@ -7,5 +7,5 @@ class Anagram
   end
   
   def match
-    word_splitter = @word.split("")
+    word_splitter = @word.split("").sort
 end
